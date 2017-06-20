@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: #FFFAFA; }
+
+h1, h2, h3, h4 {
+  font-family: "Yellowtail", cursive; }
+
+p, a, ol, ul, li, span, button {
+  font-family: "Montserrat", sans-serif; }
+
+a {
+  text-decoration: none; }
+
+.container {
+  margin: 50px 100px;
+  max-width: 1500px; }
+
+.top-margin {
+  margin-top: 20px; }
+
+.section {
+  padding: 30px 0;
+  width: 100%; }
+
+.title h2 {
+  color: #990D35;
+  font-size: 40px;
+  margin-bottom: 30px; }
+
+/*# sourceMappingURL=universal.css.map */
