@@ -1,0 +1,113 @@
+@import 'universal';
+
+.cream-bg {
+  background-color: $second-block-color;
+}
+
+.gray-bg {
+  background-color: $first-block-color;
+}
+
+.dev-wrapper {
+  margin-top: 100px;
+
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
+.title {
+  h2, h3 {
+    color: $primary-color;
+    text-align: center;
+  }
+
+  h3 {
+    color: $primary-color;
+    font-size: 20pt;
+    margin-bottom: 30px;
+  }
+}
+
+.proj-title {
+  h3 {
+    color: $primary-color;
+    font-size: 22pt;
+  }
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.proj-details {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  
+  .proj-image {
+    display: inline-block;
+    width: 45%;
+
+    img {
+      border: 2px $primary-color solid;
+      width: 100%;
+    }
+  }
+
+  .proj-text {
+    display: inline-block;
+    width: 45%;
+
+    p {
+      font-size: 13pt;
+      margin-top: 20px;
+
+      &:first-child {
+        margin-top: 0;
+      }
+    }
+  }
+}
+
+.proj-lang {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 25px;
+
+  img {
+    height: 50px;
+  }
+}
+
+.proj-links {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 60px;
+
+  .web-link .git-link {
+    display: inline-block;
+  }
+}
+
+.link-style {
+  color: #fff;
+  background-color: $action-color;
+  border: 2px #fff solid;
+  border-radius: 4px;
+  font-size: 20px;
+  padding: 20px 40px;
+  text-align: center;
+  -webkit-transition: all 0.5s ease;
+
+  &:hover {
+    color: $action-color;
+    background-color: transparent;
+    border: 2px $action-color solid;
+  }
+}
+
+.proj-git-links {
+  display: flex;
+  justify-content: space-around;
+}
