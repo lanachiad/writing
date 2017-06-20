@@ -1,20 +1,28 @@
-
 $(document).ready(function() {
-  var modal = document.getElementById('myModal');
-  var button = document.getElementById("myBtn");
-  var span = document.getElementsByClassName("close")[0];
 
-  $(button).click(function(event) {
-    $(modal).css("display", "block");
+  $("#WBBtn").click(function(event) {
+    $("#WBModal").css("display", "block");
+  })
+  $("#PSBtn").click(function(event) {
+    $("#PSModal").css("display", "block");
   })
 
-  $(span).click(function(event) {
-    $(modal).css("display", "none");
+  $("#WBSpan").click(function(event) {
+    $("#WBModal").css("display", "none");
+  })
+  $("#PSSpan").click(function(event) {
+    $("#PSModal").css("display", "none");
   })
 
   $(window).click(function(event) {
-    if(event.target == modal) {
-      $(modal).css("display", "none");
+    var WBmodal = document.getElementById("WBModal");
+    var PSmodal = document.getElementById("PSModal");
+    if(event.target == WBmodal) {
+      $("#WBModal").css("display", "none");
+    }
+    if(event.target == PSmodal) {
+      $("#PSModal").css("display", "none");
     }
   })
+
 })

@@ -21,6 +21,16 @@
     width: 80%; /* Could be more or less, depending on screen size */
 }
 
+.modal-title, .modal-subtitle {
+  text-align: center;
+}
+
+.modal-text {
+  p {
+    margin-top: 20px;
+  }
+}
+
 /* The Close Button */
 .close {
     color: #aaa;
