@@ -3,10 +3,10 @@
   padding: 0; }
 
 body {
-  background-color: #FFFAFA; }
+  background-color: #F1F0CC; }
 
 h1, h2, h3, h4 {
-  font-family: "Yellowtail", cursive; }
+  font-family: "Courgette", cursive; }
 
 p, a, ol, ul, li, span, button {
   font-family: "Montserrat", sans-serif; }
@@ -33,11 +33,14 @@ a {
 a {
   color: #990D35; }
 
+.burgundy {
+  background-color: #3F0D12; }
+
 .cream-bg {
-  background-color: #F7F3E3; }
+  background-color: #8D775F; }
 
 .gray-bg {
-  background-color: #B3B6B7; }
+  background-color: #D5BF86; }
 
 .dev-wrapper {
   margin-top: 100px; }
@@ -45,15 +48,14 @@ a {
     margin-top: 0; }
 
 .title h2, .title h3 {
-  color: #2B2118;
+  color: #fff;
   text-align: center; }
 .title h3 {
-  color: #2B2118;
   font-size: 20pt;
   margin-bottom: 30px; }
 
 .proj-title h3 {
-  color: #2B2118;
+  color: #2E3532;
   font-size: 22pt; }
 
 .reverse {
@@ -62,7 +64,7 @@ a {
 .proj-details {
   display: flex;
   justify-content: space-around;
-  margin-top: 50px; }
+  margin-top: 30px; }
   .proj-details .proj-text {
     display: inline-block; }
     .proj-details .proj-text p {

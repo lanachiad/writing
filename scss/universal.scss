@@ -1,10 +1,10 @@
-$header-font: 'Yellowtail', cursive;
-$text-font: 'Montserrat', sans-serif;
-$primary-color: #2B2118; //dark brown 
+$header-font: "Courgette", cursive;
+$text-font: "Montserrat", sans-serif;
+$primary-color: #2E3532; //dark gray 
 $action-color: #990D35; //wine
-$accent-color: #AF9164; //beige
-$first-block-color: #B3B6B7; //gray
-$second-block-color: #F7F3E3; //cream
+$accent-color: #3F0D12; //beige
+$first-block-color: #D5BF86; //burgundy
+$second-block-color: #8D775F; //pale green
 
 * {
 	margin: 0;
@@ -12,7 +12,7 @@ $second-block-color: #F7F3E3; //cream
 }
 
 body {
-	background-color: #FFFAFA;
+	background-color: #F1F0CC;
 }
 
 h1, h2, h3, h4 {
