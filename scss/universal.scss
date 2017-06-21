@@ -1,10 +1,10 @@
 $header-font: "Courgette", cursive;
 $text-font: "Montserrat", sans-serif;
-$primary-color: #2E3532; //dark gray 
-$action-color: #990D35; //wine
-$accent-color: #3F0D12; //beige
-$first-block-color: #D5BF86; //burgundy
-$second-block-color: #8D775F; //pale green
+$primary-color: #6B2737; //wine
+$action-color: #F45B69; //rose
+$accent-color: #F45B69; 
+$first-block-color: #456990; //queen blue
+$second-block-color: #114B5F; //eagle green
 
 * {
 	margin: 0;
@@ -12,7 +12,7 @@ $second-block-color: #8D775F; //pale green
 }
 
 body {
-	background-color: #F1F0CC;
+	background-color: #E4FDE1;
 }
 
 h1, h2, h3, h4 {
