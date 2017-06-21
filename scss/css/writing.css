@@ -34,7 +34,8 @@ a {
   color: #F45B69; }
 
 .burgundy {
-  background-color: #F45B69; }
+  background-color: #F45B69;
+  padding: 10px 0; }
 
 .cream-bg {
   background-color: #114B5F; }
@@ -101,6 +102,20 @@ a {
     color: #F45B69;
     background-color: transparent;
     border: 2px #F45B69 solid; }
+
+.last-link-style {
+  color: #fff;
+  background-color: #F45B69;
+  border: 2px #fff solid;
+  border-radius: 4px;
+  font-size: 20px;
+  padding: 20px 40px;
+  text-align: center;
+  -webkit-transition: all 0.5s ease; }
+  .last-link-style:hover {
+    color: #6B2737;
+    background-color: transparent;
+    border: 2px #6B2737 solid; }
 
 .proj-git-links {
   display: flex;
