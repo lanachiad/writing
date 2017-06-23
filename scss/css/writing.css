@@ -30,6 +30,12 @@ a {
   font-size: 40px;
   margin-bottom: 30px; }
 
+@media screen and (max-width: 654px) {
+  .title h2 {
+    font-size: 35px; } }
+@media screen and (max-width: 464px) {
+  .container {
+    margin: 25px 50px; } }
 a {
   color: #F45B69; }
 
@@ -120,5 +126,40 @@ a {
 .proj-git-links {
   display: flex;
   justify-content: space-around; }
+
+#video {
+  display: none; }
+
+@media screen and (max-width: 1099px) {
+  .proj-details {
+    display: block; }
+    .proj-details .proj-image {
+      width: 100%; }
+    .proj-details .proj-text {
+      margin-top: 25px;
+      width: 100%; }
+
+  .proj-links {
+    display: table;
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 50%; }
+
+  .link-style {
+    display: block;
+    margin-top: 25px; }
+    .link-style:first-child {
+      margin-top: 0; }
+
+  button {
+    display: block;
+    margin: 0 auto; } }
+@media screen and (max-width: 744px) {
+  iframe {
+    display: none; }
+
+  #video {
+    display: block;
+    width: 100%; } }
 
 /*# sourceMappingURL=writing.css.map */

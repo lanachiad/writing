@@ -126,3 +126,54 @@ a {
   display: flex;
   justify-content: space-around;
 }
+
+#video {
+  display: none;
+}
+
+@media screen and (max-width: 1099px) {
+  .proj-details {
+    display: block;
+
+    .proj-image {
+      width: 100%;
+    }
+
+    .proj-text {
+      margin-top: 25px;
+      width: 100%;
+    }
+  }
+
+  .proj-links {
+    display: table;
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 50%;
+  }
+
+  .link-style {
+    display: block;
+    margin-top: 25px;
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+
+  button {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 744px) {
+  iframe {
+    display: none;
+  }
+
+  #video {
+    display: block;
+    width: 100%;
+  }
+}

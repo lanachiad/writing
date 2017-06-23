@@ -17,6 +17,7 @@
 
 #main-title h1 {
 	font-size: 60px;
+	text-align: center;
 }
 
 #main-links a {
@@ -54,8 +55,26 @@
 		display: none;
 	}
 
-	.nav-links li {
+	#internal li {
 		display: block;
 		text-align: center;
+	}
+
+	#external li {
+		display: inline-block;
+	}
+}
+
+@media screen and (max-width: 464px) {
+	#main-title h1 {
+		font-size: 80px;
+	}
+
+	#internal li a {
+		font-size: 30px;
+	}
+
+	#external li a {
+		font-size: 45px;
 	}
 }
